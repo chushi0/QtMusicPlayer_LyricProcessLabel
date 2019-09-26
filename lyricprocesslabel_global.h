@@ -1,0 +1,10 @@
+#pragma once
+
+#include <QtCore/qglobal.h>
+
+#if defined(LYRICPROCESSLABEL_LIBRARY)
+#  define LYRICPROCESSLABELSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define LYRICPROCESSLABELSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
